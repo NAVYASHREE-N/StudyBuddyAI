@@ -35,3 +35,34 @@ p {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 10px;
 }
+
+textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#summaryOutput {
+  margin-top: 20px;
+  background: #e9f5ff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
